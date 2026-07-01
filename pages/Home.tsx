@@ -20,7 +20,7 @@ const featuredProducts: Product[] = [
     title: 'Black Galaxy',
     description: 'Deep black granite with golden specks, perfect for statement countertops.',
     category: 'Granite',
-    image: 'https://picsum.photos/id/1016/600/800',
+    image: 'https://stonegalleria.in/uploads/blog_images/black-galaxy-with-gold-flecks.jpg',
     tag: 'Durable'
   },
   {
@@ -28,7 +28,7 @@ const featuredProducts: Product[] = [
     title: 'Honey Onyx',
     description: 'Translucent stone that glows with warmth when backlit.',
     category: 'Onyx',
-    image: 'https://picsum.photos/id/1015/600/800',
+    image: 'https://bhutrastones.com/wp-content/uploads/2026/03/honey-onyx-marble-texture-close-up.png',
     tag: 'Premium'
   }
 ];
