@@ -157,7 +157,7 @@ const Home: React.FC = () => {
           </div>
           <div className="relative">
             <div className="aspect-[4/5] bg-gray-200 overflow-hidden rounded-sm">
-               <img src="https://picsum.photos/id/1004/800/1000" alt="Showroom" className="w-full h-full object-cover" />
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS53hcQN_uFHvzvprl1zQyGeJam2KmoY1x9PQtGvA8cRGyNYX2ePdIOGU&s=10" alt="Showroom" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl max-w-xs hidden md:block">
               <p className="font-serif italic text-lg text-brand-charcoal">"Where Marble Meets Mastery"</p>
