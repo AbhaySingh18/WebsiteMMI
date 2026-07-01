@@ -12,7 +12,7 @@ const featuredProducts: Product[] = [
     title: 'Statuario Extra',
     description: 'The epitome of luxury with bold grey veining on a pure white canvas.',
     category: 'Imported Marble',
-    image: 'https://picsum.photos/id/1036/600/800',
+    image: 'https://surajmarbles.com/wp-content/uploads/2025/05/Marble-Statuario-Extra-webp.webp',
     tag: 'Best Seller'
   },
   {
