@@ -21,11 +21,11 @@ const Contact: React.FC = () => {
               <div className="space-y-6 text-gray-500 text-sm">
                 <div className="flex">
                   <MapPin className="w-5 h-5 mr-4 text-brand-beige flex-shrink-0" />
-                  <p>123 Marble Market Road,<br/>Kishangarh Industrial Area,<br/>Rajasthan, India</p>
+                  <p>Bhuwana Bypass Circle,<br/>Udaipur,<br/>Rajasthan, India</p>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 mr-4 text-brand-beige flex-shrink-0" />
-                  <p>+91 98765 43210</p>
+                  <p>+91 9772211501</p>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-4 text-brand-beige flex-shrink-0" />
