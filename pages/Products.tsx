@@ -5,22 +5,22 @@ import { Product } from '../types';
 
 const productData: Product[] = [
   // Imported Marble
-  { id: 'm1', title: 'Statuario Extra', category: 'Imported Marble', image: 'https://picsum.photos/id/1036/600/800', description: 'Classic white marble with bold grey veining.' },
-  { id: 'm2', title: 'Grey William', category: 'Imported Marble', image: 'https://picsum.photos/id/1035/600/800', description: 'Subtle grey tones perfect for modern interiors.' },
-  { id: 'm3', title: 'Michaelangelo', category: 'Imported Marble', image: 'https://picsum.photos/id/1033/600/800', description: 'Black base with stunning gold and white veins.' },
+  { id: 'm1', title: 'Statuario Extra', category: 'Imported Marble', image: 'https://cdn.prod.website-files.com/5e1cf94f2b50942f7e1af54d/60007d7aef9475b5825502b1_V0761-142x78-3CM-STATUARIO%20EXTRA-POLISHED-DETAIL-THUMBNAIL.jpg', description: 'Classic white marble with bold grey veining.' },
+  { id: 'm2', title: 'Grey William', category: 'Imported Marble', image: 'https://www.stonehubindia.com/public/uploads/product/336968738_12_09_2023_12_58_01.webp', description: 'Subtle grey tones perfect for modern interiors.' },
+  { id: 'm3', title: 'Michaelangelo', category: 'Imported Marble', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUHgUBi1qz-HI9UMYhs3WGMB-5aATjF9NW3bMBkQ2ZHOKe8iXbT0X61ofF&s=10', description: 'Black base with stunning gold and white veins.' },
   
   // Granite
-  { id: 'g1', title: 'Black Galaxy', category: 'Granite', image: 'https://picsum.photos/id/1016/600/800', description: 'Deep black granite with metallic flecks.', tag: 'Kitchens' },
-  { id: 'g2', title: 'Tan Brown', category: 'Granite', image: 'https://picsum.photos/id/1018/600/800', description: 'Durable brown granite suitable for flooring.' },
-  { id: 'g3', title: 'Absolute Black', category: 'Granite', image: 'https://picsum.photos/id/1019/600/800', description: 'Pure, consistent black for a minimal look.' },
+  { id: 'g1', title: 'Black Galaxy', category: 'Granite', image: 'https://sudarshanstoneix.com/wp-content/uploads/2025/08/Black-Galaxy-Granite.jpg', description: 'Deep black granite with metallic flecks.', tag: 'Kitchens' },
+  { id: 'g2', title: 'Tan Brown', category: 'Granite', image: 'https://www.aonemarbles.com/wp-content/uploads/2019/03/Tan-Brown-Granite-Tile-800x800.jpg', description: 'Durable brown granite suitable for flooring.' },
+  { id: 'g3', title: 'Absolute Black', category: 'Granite', image: 'https://www.regattagranitesindia.com/wp-content/uploads/2015/11/Absolute-Black-Polished-Texture.webp', description: 'Pure, consistent black for a minimal look.' },
 
   // Onyx
-  { id: 'o1', title: 'Honey Onyx', category: 'Onyx', image: 'https://picsum.photos/id/1015/600/800', description: 'Warm amber tones, highly translucent.' },
-  { id: 'o2', title: 'White Onyx', category: 'Onyx', image: 'https://picsum.photos/id/1020/600/800', description: 'Pure white crystal structure for luxury accent walls.' },
+  { id: 'o1', title: 'Honey Onyx', category: 'Onyx', image: 'https://prestigeedition.co.uk/media/images/honey-onyx.jpg', description: 'Warm amber tones, highly translucent.' },
+  { id: 'o2', title: 'White Onyx', category: 'Onyx', image: 'https://florim-cdn.thron.com/api/v1/content-delivery/shares/rf8vac/contents/d90f41b3-2a7c-4862-9c9f-8d93b0409e29/image/765924_03.jpg?w=1080&format=webp&q=95', description: 'Pure white crystal structure for luxury accent walls.' },
 
   // Tiles
-  { id: 't1', title: 'Travertine Beige', category: 'Tiles', image: 'https://picsum.photos/id/1021/600/800', description: 'Classic beige texture for patios and cladding.' },
-  { id: 't2', title: 'Slate Grey', category: 'Tiles', image: 'https://picsum.photos/id/1022/600/800', description: 'Natural textured finish for outdoor use.', tag: 'Outdoor' },
+  { id: 't1', title: 'Travertine Beige', category: 'Tiles', image: 'https://surajmarbles.com/wp-content/uploads/2025/05/Marble-Beige-Travertine-webp.webp', description: 'Classic beige texture for patios and cladding.' },
+  { id: 't2', title: 'Slate Grey', category: 'Tiles', image: 'https://carmelimports.com/wp-content/uploads/2024/04/cornerstone-slate-grey-porcelain-tile.jpg', description: 'Natural textured finish for outdoor use.', tag: 'Outdoor' },
 ];
 
 const CategorySection: React.FC<{ title: string; products: Product[]; description: string }> = ({ title, products, description }) => {
