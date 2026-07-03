@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
       <div className="h-96 w-full bg-gray-200 grayscale relative">
         <iframe 
           title="Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.067643566164!2d74.838!3d26.938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU2JzE4LjAiTiA3NMKwNTAnMTYuOCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.9165977856474!2d73.7090968744978!3d24.62655927808269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e451edd44b91%3A0x5fdda6c59f3b8fd1!2sBhuwana%20Bypass%20Chauraha%2C%20Udaipur%2C%20Sukher%2C%20Rajasthan%20313001!5e0!3m2!1sen!2sin!4v1783116848833!5m2!1sen!2sin" 
           width="100%" 
           height="100%" 
           style={{ border: 0, filter: 'grayscale(100%)' }} 
