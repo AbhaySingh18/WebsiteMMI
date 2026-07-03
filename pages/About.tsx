@@ -26,7 +26,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2">
-             <img src="https://picsum.photos/id/1012/800/1000" alt="Our Warehouse" className="w-full h-auto shadow-lg" />
+             <img src="https://thumbs.dreamstime.com/b/warehouse-wooden-support-aisle-long-aisle-inside-marble-warehouse-rows-white-grey-marble-slabs-leaning-against-435113580.jpg" alt="Our Warehouse" className="w-full h-auto shadow-lg" />
           </div>
         </div>
       </SectionWrapper>
